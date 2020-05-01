@@ -1,0 +1,22 @@
+
+#index-background {
+    background: url("/images/Placeholder Image.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 80vh;
+    width: 90vw;
+    margin: 0 auto;
+}
+
+#landing-background {
+    background: url("/images/landing.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 80vh;
+    width: 90vw;
+    margin: 0 auto;
+}
