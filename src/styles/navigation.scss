@@ -1,0 +1,32 @@
+
+.navigation-step-1, .navigation-step-2{
+    height: 100vh;
+    width: 100vw;
+    padding: 0 80px;
+
+    .header{
+        margin-top: 31px;
+        height: 62px;
+    }
+}
+
+.navigation-step-1{
+    .header{
+        margin-bottom: 144px;
+    }
+}
+
+.navigation-step-2{
+    h1{
+        margin-top: 66px;
+        margin-bottom: 129px;
+    }
+    
+    h2{
+        margin-bottom: 47px;
+    }
+
+    .column{
+        max-width: 400px;
+    }
+}

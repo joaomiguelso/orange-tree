@@ -7,7 +7,7 @@ import "../styles/pages.css"
 
 const LandingPage = () => (
     <Layout title="Democracy. Diversity. Opportunity">
-        <Link to="/founding"><div id="landing-background"></div></Link>
+        <Link to="/"><div id="landing-background"></div></Link>
     </Layout>
 )
 

@@ -1,0 +1,46 @@
+@import url(//db.onlinewebfonts.com/c/4c4c08af466e9ad071b6d69cf44093df?family=Saol+Display+Regular);
+@import url(//db.onlinewebfonts.com/c/2596224269750e00c3ad5356299a3b9f?family=Ogg);
+@import url(//db.onlinewebfonts.com/c/031da03967812d134ed68febd3ba78a9?family=GT+America);
+
+.ogg-roman-title{
+    font-family: "Ogg";
+    font-weight: 400;
+    font-size: 88px;
+    letter-spacing: 0;
+    line-height: 1.705;
+    color: white;
+}
+
+.ogg-roman-text{
+    font-family: "Ogg";
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.4px;
+    color: white;
+}
+
+.saol-title{
+    font-family: "Saol Display Regular";
+    font-weight: 400;
+    font-size: 88px;
+    letter-spacing: 0;
+    line-height: 0.636;
+    color: white;
+}
+
+.saol-subtitle{
+    font-family: "Saol Display Regular";
+    font-weight: 400;
+    font-size: 38px;
+    letter-spacing: 0;
+    line-height: 1.474;
+    color: white;
+}
+
+.gt-america-text{
+    font-family: "GT America";
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.45px;
+    color: white;
+}
