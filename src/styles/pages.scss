@@ -29,7 +29,6 @@ a{
     .text-over, .text-under{
         display: none;
         position: relative;
-        left: 140px;
         text-align: center;
         max-width: 320px;
     }
@@ -61,6 +60,10 @@ a{
     right: calc( calc( 2 * calc( calc(100% - 160px) / 3)) + 80px);
     top: 80px;
     bottom: 80px;
+
+    .text-over, .text-under{
+        left: 150px;
+     }
 }
 
 .second-painting{
@@ -71,6 +74,10 @@ a{
     right: calc( calc( calc( calc(100% - 160px) / 3)) + 80px);
     top: 80px;
     bottom: 80px;
+
+    .text-over, .text-under{
+       left: 120px;
+    }
 }
 
 .third-painting{
@@ -81,6 +88,10 @@ a{
     right: 80px;
     top: 80px;
     bottom: 80px;
+
+    .text-over, .text-under{
+        left: 70px;
+     }
 }
 
 
