@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 
-import "../styles/pages.css"
+import "../styles/pages.scss"
 
 const IndexPage = () => (
   <Layout title="Democracy. Diversity. Opportunity">

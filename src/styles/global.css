@@ -2,6 +2,13 @@
 @import url(//db.onlinewebfonts.com/c/2596224269750e00c3ad5356299a3b9f?family=Ogg);
 @import url(//db.onlinewebfonts.com/c/031da03967812d134ed68febd3ba78a9?family=GT+America);
 
+.ogg-roman{
+    font-family: "Ogg";
+    font-weight: 400;
+    letter-spacing: 0;
+    color: white;
+}
+
 .ogg-roman-title{
     font-family: "Ogg";
     font-weight: 400;
