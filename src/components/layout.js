@@ -15,9 +15,9 @@ const Layout = ({ children, title }) => {
       </header>
       <main>{children}</main>
       <footer id="footer" className="flex_space_between_row">
-        <span className="gt-america-text">SHARE</span>
+        <span className="gt-america-text">Share</span>
         <span className="ogg-roman-text">{title}</span>
-        <span className="gt-america-text">AUDIO ON</span>
+        <span className="gt-america-text">Audio ON</span>
       </footer>
     </>
   )

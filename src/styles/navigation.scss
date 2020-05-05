@@ -13,6 +13,15 @@
     .header{
         margin-bottom: 144px;
     }
+
+    h1{
+        cursor: pointer;
+    }
+
+    h1:hover{
+        text-decoration: underline;
+        transition: 100ms;
+    }
 }
 
 .navigation-step-2{
@@ -27,5 +36,14 @@
 
     .column{
         max-width: 400px;
+
+        p{
+            cursor: pointer;
+        }
+
+        p:hover{
+            text-decoration: underline;
+            transition: 100ms;
+        }
     }
 }

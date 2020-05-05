@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 const NavigationStep2 = ({ }) => (
 
-    <div className="navigation-step-2">
+    <div className="navigation-step-2 fade-in">
         <div className="header flex_space_between_row">
             <span className="gt-america-text">America</span>
             <Link to="/landing"><span className="gt-america-text">CLOSE X</span></Link>

@@ -4,8 +4,8 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    height: 80vh;
+    background-size: auto;
+    height: 83vh;
     width: calc(100% - 160px);
     margin: 0 auto;
 }
@@ -15,9 +15,8 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    height: 80vh;
-    width: calc(100% - 160px);
+    background-size: auto;
+    height: 83vh;
     margin: 0 auto;
 }
 
@@ -33,14 +32,18 @@ a{
         max-width: 320px;
     }
 
+    .text-over, .text-under{
+        margin: 0 auto;
+    }
+
     .text-over{
-        top: 150px;
+        top: 18vh;
         font-size: 28px;
         line-height: 2.333;
     }
 
     .text-under{
-        top: 600px;
+        top: 60vh;
         font-size: 36px;
         line-height: 1.268;
     }
@@ -48,50 +51,36 @@ a{
     &:hover{
         .text-over, .text-under{
             display: block;
+            -webkit-animation: fade-in 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: fade-in 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
         }
     }
 }
 
-.first-painting{
+.first-painting, .second-painting, .third-painting{
     position: absolute;
-    //background: #fc00007a;
     z-index: 1;
-    left: 80px;
-    right: calc( calc( 2 * calc( calc(100% - 160px) / 3)) + 80px);
-    top: 80px;
-    bottom: 80px;
+    top: 9vh;
+    bottom: 8vh;
+}
 
-    .text-over, .text-under{
-        left: 150px;
-     }
+.first-painting{
+    border: 2px solid #fc00007a;
+    left: 8vw;
+    right: calc( calc( 2 * calc( calc(100% - 10vw) / 3)) + 5vw);
 }
 
 .second-painting{
-    position: absolute;
-    //background: #c0dbff59;;
-    z-index: 1;
-    left: calc( calc( calc( calc(100% - 160px) / 3)) + 80px);
-    right: calc( calc( calc( calc(100% - 160px) / 3)) + 80px);
-    top: 80px;
-    bottom: 80px;
-
-    .text-over, .text-under{
-       left: 120px;
-    }
+    border: 2px solid #c0dbff59;;
+    left: calc( calc( calc( calc(100% - 10vw) / 3)) + 5vw);
+    right: calc( calc( calc( calc(100% - 10vw) / 3)) + 5vw);
 }
 
 .third-painting{
-    position: absolute;
-    //background: #c0ffc059;;
-    z-index: 1;
-    left: calc( calc( 2 * calc( calc(100% - 160px) / 3)) + 80px);
-    right: 80px;
-    top: 80px;
-    bottom: 80px;
+    border: 2px solid #c0ffc059;;
+    left: calc( calc( 2 * calc( calc(100% - 10vw) / 3)) + 5vw);
+    right: 8vw;
 
-    .text-over, .text-under{
-        left: 70px;
-     }
 }
 
 
