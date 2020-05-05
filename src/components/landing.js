@@ -1,12 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-
-import Layout from "../components/layout"
-
 import "../styles/pages.scss"
 
 const LandingPage = () => (
-    <Layout title="Democracy. Diversity. Opportunity">
+    <div className="fade-in">
         <div id="landing-background">
             <Link to="/">
                 <div className="first-painting">
@@ -27,7 +24,7 @@ const LandingPage = () => (
                 </div>
             </Link>
         </div>
-    </Layout>
+    </div>
 )
 
 export default LandingPage
