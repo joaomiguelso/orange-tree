@@ -1,0 +1,27 @@
+#dance_theatre{
+    color: white;
+    min-height: 83vh;
+    width: 100%;
+    background: url("/images/1. Arrival of the First Africans/Evolving-sm.png") no-repeat center center fixed;
+
+    .info_container{
+        position: relative;
+        left: 15%;
+        top: 30vh;
+        background: #000000a3;
+        padding: 17.5px;
+        max-width: 720px;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    #dance_theatre{
+        .info_container{
+            position: relative;
+            left: 0;
+            top: 10vh;
+            margin: 0 auto;
+        }
+    }
+}

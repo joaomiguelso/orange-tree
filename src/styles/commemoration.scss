@@ -1,7 +1,6 @@
 #commemoration{
     color: white;
-    height: 83vh;
-    padding-top: 20px;
+    min-height: 83vh;
 
     .info_container{
         margin-top: 168px;
@@ -11,5 +10,14 @@
     #commemoration_photo{
         height: 571px;
         width: 400px;
+    }
+}
+
+@media only screen and (max-width: 1220px) {
+    #commemoration{
+        .info_container{
+            padding: 17.5px;
+            margin-top: 0px;
+        }
     }
 }

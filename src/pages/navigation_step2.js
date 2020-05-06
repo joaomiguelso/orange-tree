@@ -5,16 +5,16 @@ const NavigationStep2 = ({ }) => (
 
     <div className="navigation-step-2 fade-in">
         <div className="header flex_space_between_row">
-            <span className="gt-america-text">America</span>
+            <Link to="/"><span className="gt-america-text">American Evolution</span></Link>
             <Link to="/"><span className="gt-america-text">CLOSE X</span></Link>
         </div>
         <h1 className="saol-title">Arrival of the First Africans</h1>
         <div className="flex_space_between_row">
             <div className="column">
                 <h2 className="saol-subtitle">Founding</h2>
-                <p className="gt-america-text">i.  Commemoration of the First African Landing</p>
+                <Link to="/commemoration"><p className="gt-america-text">i.  Commemoration of the First African Landing</p></Link>
                 <p className="gt-america-text">ii.  VMHC's "Determined" exhibit </p>
-                <p className="gt-america-text">iii. Dance Theatre of Harlem "Passage" World Premiere</p>
+                <Link to="/dance_theatre"><p className="gt-america-text">iii. Dance Theatre of Harlem "Passage" World Premiere</p></Link>
                 <p className="gt-america-text">iv.  Tenacity: Women in Jamestown and Early Virginia</p>
                 <p className="gt-america-text">v.  Fort Monroe Broll</p>
                 <p className="gt-america-text">vi.  VA to America: Unearthing AA History</p>

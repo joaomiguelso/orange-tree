@@ -28,20 +28,20 @@ export default class IndexPage extends Component {
 
     return (
       <Layout title="Democracy. Diversity. Opportunity">
-        <div style={{ display: "none" }}>
+        <div style={{ display: display_style }}>
           <Player
             ref={player => {
               this.player = player;
             }}
             playsInline
-            poster="/images/index_placeholder.png"
+            poster="/images/Placeholder Image.png"
             src="https://embed-ssl.wistia.com/deliveries/456a9f531d806cb8987f184f45b9781f.mp4"
           >
             <ControlBar autoHide={true} autoHideTime={1000} />
             <BigPlayButton position="center" />
           </Player>
         </div >
-        <Landing />
+        {this.state.player && this.state.player.ended && <Landing />}
       </Layout >
     );
   }

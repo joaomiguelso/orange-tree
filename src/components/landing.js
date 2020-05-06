@@ -10,15 +10,15 @@ const paintings = [
 
 const LandingPage = () => (
     <div className="fade-in">
-        <img id="landing-background" src="/images/landing copy.jpeg" alt="alt" >
+        <img id="landing-background" src="/images/Landing Page Placeholder_v2.png" alt="alt" >
         </img>
-        {paintings.map((painting) => <Link to="/">
+        {/* {paintings.map((painting) => <Link to="/">
             <div className={painting.className}>
                 <h2 className="text-over ogg-roman">{painting.over_text}</h2>
                 <h1 className="text-under ogg-roman">{painting.under_text}</h1>
             </div>
         </Link>
-        )}
+        )}*/}
     </div>
 )
 

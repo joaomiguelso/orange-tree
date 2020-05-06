@@ -6,10 +6,10 @@ import "../styles/layout.css"
 
 const Layout = ({ children, title }) => {
   return (
-    <>
+    <div className="flex_start_column">
       <header>
         <div id="header" className="flex_space_between_row">
-          <span>American Evolution</span>
+          <Link to="/"><span className="gt-america-text">American Evolution</span></Link>
           <Link to="/navigation_step1"><span className="gt-america-text">MENU</span></Link>
         </div>
       </header>
@@ -19,7 +19,7 @@ const Layout = ({ children, title }) => {
         <span className="ogg-roman-text">{title}</span>
         <span className="gt-america-text">Audio ON</span>
       </footer>
-    </>
+    </div>
   )
 }
 
