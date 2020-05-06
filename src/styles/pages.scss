@@ -1,23 +1,10 @@
 
-#index-background {
-    background: url("/images/index_placeholder.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: auto;
-    height: 83vh;
-    width: calc(100% - 160px);
-    margin: 0 auto;
-}
-
 #landing-background {
-    background: url("/images/landing.jpeg") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: auto;
+    display: block;
     height: 83vh;
     margin: 0 auto;
+    width: auto;
+    min-width: 1346px;
 }
 
 a{
@@ -37,13 +24,13 @@ a{
     }
 
     .text-over{
-        top: 18vh;
+        top: 15vh;
         font-size: 28px;
         line-height: 2.333;
     }
 
     .text-under{
-        top: 60vh;
+        top: 52vh;
         font-size: 36px;
         line-height: 1.268;
     }
@@ -60,27 +47,26 @@ a{
 .first-painting, .second-painting, .third-painting{
     position: absolute;
     z-index: 1;
-    top: 9vh;
+    top: 18vh;
     bottom: 8vh;
 }
 
 .first-painting{
-    border: 2px solid #fc00007a;
-    left: 8vw;
-    right: calc( calc( 2 * calc( calc(100% - 10vw) / 3)) + 5vw);
+    //border: 2px solid #fc00007a;
+    left: calc( 50% - 566px);
+    right: calc( 50% + 283px);
 }
 
 .second-painting{
-    border: 2px solid #c0dbff59;;
-    left: calc( calc( calc( calc(100% - 10vw) / 3)) + 5vw);
-    right: calc( calc( calc( calc(100% - 10vw) / 3)) + 5vw);
+     border: 2px solid #c0dbff59;;
+     left: calc( 50% - 130px);
+     right: calc( 50% - 100px);
 }
 
 .third-painting{
     border: 2px solid #c0ffc059;;
-    left: calc( calc( 2 * calc( calc(100% - 10vw) / 3)) + 5vw);
-    right: 8vw;
-
+    left: calc( 50% + 250px);
+    right: calc( 50% - 480px);
 }
 
 .video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3 {
@@ -90,9 +76,4 @@ a{
     height: 83vh;
     padding-top: 0 !important;
 }
-
-.video-react-big-play-button.video-react-big-play-button-left{
-    display: none !important;
-}
-
 
