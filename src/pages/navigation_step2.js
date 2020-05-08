@@ -1,12 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
+import Close from "../components/close"
 
 const NavigationStep2 = ({ }) => (
 
     <div className="navigation-step-2 fade-in">
         <div className="header flex_space_between_row">
             <Link to="/"><span className="gt-america-text">2019 Commemoration</span></Link>
-            <Link to="/"><span className="gt-america-text">CLOSE X</span></Link>
+            <Close />
         </div>
         <Link to="/chapter_navigation"><h1 className="saol-title">Arrival of the First Africans</h1></Link>
         <div className="flex_space_between_row">

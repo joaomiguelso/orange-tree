@@ -2,6 +2,8 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 
+import Volume from "../components/volume"
+
 import "../styles/layout.scss"
 
 const Layout = ({ children, title }) => {
@@ -18,8 +20,7 @@ const Layout = ({ children, title }) => {
       <main id="main">{children}</main>
       <footer id="footer" className="flex_space_between_row">
         <span className="gt-america-text">Share</span>
-        <span className="gt-america-text">Audio On
-        </span>
+        <Volume />
       </footer>
     </div>
   )

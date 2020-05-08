@@ -13,8 +13,7 @@ const Commemoration = ({ }) => (
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce efficitur porttitor sapien, sit amet ullamcorper nisi tristique in. Maecenas tempor orci vitae odio blandit blandit. Etiam a enim vel tortor viverra fringilla. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
                     <p>Phasellus hendrerit ornare varius. Sed et facilisis dolor. Vestibulum convallis tortor quis scelerisque ultricies. </p>
                 </div>
-                <img id="commemoration_photo"
-                    src="/images/wheel.png" alt="alt" />
+                <img id="commemoration_photo" src="/images/wheel.png" alt="alt" />
             </div>
         </div>
     </Layout>
