@@ -1,6 +1,6 @@
 import React from "react"
-import "../styles/commemoration.scss"
 import Layout from "../components/layout"
+import "../styles/pages/commemoration.scss"
 
 const Commemoration = ({ }) => (
   <Layout title="Democracy. Diversity. Opportunity">

@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import "../styles/pages.scss"
+import "../styles/pages/landing.scss"
 
 const paintings = [
     { className: "first-painting", over_text: "Click to Explore", under_text: "Establishment of the First Legislature" },
@@ -9,9 +9,7 @@ const paintings = [
 ]
 
 const LandingPage = () => (
-    <div className="fade-in">
-        <img id="landing-background" src="/images/Landing Page Placeholder_v2.png" alt="alt" >
-        </img>
+    <div id="landing" className="fade-in">
         {/* {paintings.map((painting) => <Link to="/">
             <div className={painting.className}>
                 <h2 className="text-over ogg-roman">{painting.over_text}</h2>

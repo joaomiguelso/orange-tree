@@ -1,6 +1,6 @@
 import React from "react"
-import "../styles/dance_theatre.scss"
 import Layout from "../components/layout"
+import "../styles/pages/dance_theatre.scss"
 
 const DanceTheatre = ({ }) => (
     <Layout title="Democracy. Diversity. Opportunity" >

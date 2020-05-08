@@ -1,0 +1,29 @@
+#chapter_navigation{
+    color: white;
+    background: url("/images/Placeholder Image2.png") no-repeat center center fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    .cn_title{
+        margin-top: 45px;
+        font-size: 72px;
+        letter-spacing: 1.8;
+    }
+
+    .cn_content_container{
+        align-items: center;
+    }
+
+    .cn_info_container{
+        background: #000000a3;
+        padding: 90px 45px 45px 45px;
+        margin-bottom: 45px;
+        max-width: 427px;
+    }
+
+    #commemoration_photo{
+        height: 573px;
+        width: 630px;
+    }
+}
